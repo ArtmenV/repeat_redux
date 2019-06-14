@@ -1,19 +1,2 @@
-import React, { Component } from "react";
-import "./counter.css"
 
-class Counter extends Component {
-
-    render() {
-      const (number, plusCounter, minusCounter) = this.props
-      return (
-        <>
-          <h1> {number} </h1>
-          <button onclick={this.plusCounter}+</button>
-          <button onclick={this.minusCounter}-</button>
-        </>
-      )
-    }
-    }
-
-  export default Counter
 
